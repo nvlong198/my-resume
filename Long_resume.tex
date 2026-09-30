@@ -1,0 +1,210 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+\documentclass[11pt,a4paper,roman]{moderncv}
+
+% modern themes
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+\nopagenumbers{}
+
+% Essential packages only
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.8]{geometry}
+\usepackage{hyperref}
+
+% personal data
+\name{Long}{Nguyen Van}
+\address{Ha Noi, Vietnam}{}{}
+\email{vnlonguet@gmail.com}
+\social[github]{nvlong198}
+\phone[mobile]{0357448487}
+
+% Simplified custom commands for better performance
+\newcommand*{\customcventry}[6][.25em]{%
+    {\bfseries #4} \hfill {\bfseries #5} \\
+    {\itshape #3} \hfill {\itshape #2}
+    \ifx\relax#6\relax\else\\#6\fi
+    \par\addvspace{#1}}
+
+\newcommand*{\customcvproject}[4][.25em]{%
+    {\bfseries #2} \hfill {\itshape #3}
+    \ifx\relax#4\relax\else\\#4\fi
+    \par\addvspace{#1}}
+
+\newcommand*{\customcvprojectt}[3][.25em]{%
+    #2 \hfill #3
+    \par\addvspace{#1}}
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+    \makecvtitle
+    \vspace*{-15mm}
+
+    % Enhanced contact information layout
+    \begin{center}
+        \begin{minipage}[t]{0.6\textwidth}
+            \centering
+%            {\Large \textbf{Data Engineer}}\\[3mm]
+
+%            \begin{tabular}{c@{\hspace{15mm}}c@{\hspace{15mm}}c}
+%                \faIcon{envelope} & \faIcon{github} & \faIcon{mobile-alt} \\[2mm]
+%                \href{mailto:vnlonguet@gmail.com}{\small vnlonguet@gmail.com} &
+%                \href{https://github.com/nvlong198}{\small github.com/nvlong198} &
+%                {\small +84 357 448 487} \\
+%            \end{tabular}
+
+            \vspace{3mm}
+            \rule{0.8\textwidth}{0.5pt}
+            \vspace{2mm}
+
+            {\footnotesize \faIcon{map-marker-alt} Ha Noi, Vietnam}
+        \end{minipage}
+    \end{center}
+
+    \vspace{5mm}
+
+    \section{WORK EXPERIENCE}
+
+    \customcventry{Oct 2022 - Present}{Senior Data Engineer}{Techcom Securities JSC}{Ha Noi}{}
+    \begin{itemize}
+        \item Team size: 5
+        \item \textbf{Key activities:}
+        \begin{itemize}
+            \item Collect/Crawl/webhook integration data from various sources to the Data warehouse (API, Elastic Search, MongoDB, MySQL, PostgreSQL, crawler\ldots)
+            \item Designed and implemented scalable data pipelines using AWS Glue, Kafka Connector, AWS Lambda, and AWS Redshift
+            \item Developed and deployed web crawlers using Scrapy and Selenium
+            \item Optimized data quality, performance, and reliability by applying best practices
+            \item Collaborated with data analysts and scientists to understand business requirements
+            \item Enhanced data security and compliance by implementing encryption, authentication, and authorization mechanisms
+        \end{itemize}
+    \end{itemize}
+
+    \customcventry{Dec 2021 - Oct 2022}{Data Engineer}{OpenCommerce Group}{Ha Noi}{}
+    \begin{itemize}
+        \item Duties: Design data mart, Coding, Optimize queries / Team size: 3
+        \item Language: Python
+        \item Technical Stack: Airflow, dbt, Redshift, PostgreSQL, AWS, Docker, Kinesis - Firehose
+        \item BI tools: Holistics, Power BI, Tableau
+        \item \textbf{Key activities:}
+        \begin{itemize}
+            \item Collect/Crawl/webhook integration data from various sources to the Data warehouse
+            \item Migrate the legacy database to Amazon Redshift
+            \item Build/Maintain data pipeline service (airflow)
+            \item Experienced building data models and validating essential data quality using ``data build tool''
+            \item Troubleshoot BI tool issues, enhancing dashboard and database performance
+            \item Optimize database performance, alert and manage database workloads
+        \end{itemize}
+    \end{itemize}
+
+    \customcventry{Aug 2019 - Nov 2021}{Data Engineer}{Giaohangtietkiem JSC}{Ha Noi}{}
+    \begin{itemize}
+        \item Duties: Coding, Optimize queries, Design database, web development / Team size: 8
+        \item Language: Java, Scala, Python, JavaScript
+        \item Technical Stack: Hadoop, Spark, Airflow, MySQL, Kafka, Flask, SpringBoot framework, ReactJS
+        \item BI tools: Superset, Redash
+        \item \textbf{Key activities:}
+        \begin{itemize}
+            \item Building Kafka connector to capture events from database binary log and stream into Kafka topic
+            \item Developed ingestion pipeline to capture data change from Kafka topic to HDFS data lakes by Spark Streaming
+            \item Developed ETL pipelines to aggregate data from Hadoop HDFS to MySQL, and MongoDB using Apache Spark and Cloudera Impala
+            \item Install open source Superset BI Tools for visualization analysis purposes \& integrate Superset with existing OAuth authentication
+            \item Refactoring and optimizing SQL slow queries
+            \item Handle Kafka, spark streaming problems
+            \item Developed application to detect table schema changes
+            \item Building AI-based systems to classify product names, and help the business analyze user trends
+            \item Worked full-stack development, Digital transformation for reporting management systems
+        \end{itemize}
+    \end{itemize}
+
+    \customcventry{Aug 2018 – Aug 2019}{NLP Researcher Intern}{NERD JSC}{Ha Noi}{}
+    \begin{itemize}
+        \item Improve natural language understanding for intent detection
+        \item Created a bot crawler to collect data for training machine learning models
+        \item Worked on Natural Language Processing (NLP) tasks such as Name Entity Recognition, and Diacritic Restoration in Vietnamese
+    \end{itemize}
+
+    \section{EDUCATION}
+    \customcventry{Graduation: June 2020}{Information Systems GPA: 3.22/4.0}{VNU University of Engineering and Technology}{Ha Noi}{}
+    \begin{itemize}
+        \item Researcher at the laboratory
+        \item Great level of self-studying
+        \item Doing researches with teachers as supervisors
+        \item Achievement certificate for the very good student in the academic year 2018-2019
+        \item Thesis: Automatic Diacritic Restoration of Vietnamese Language Text, Result: 99\% accuracy, by combining LSTM and statistical language modeling
+    \end{itemize}
+
+    \section{LANGUAGES}
+    \customcvprojectt{English}{TOEIC 640 - 2020}
+    \customcvprojectt{Japanese}{JLPT N4 - 2018}
+
+    \newpage
+
+    \section{THE MAIN PROJECTS}
+
+    \subsection{WarehouseGen2 (Jan 2022 - Present)}
+    \textbf{Customer:} OpenCommerce Group \\
+    \textbf{Description:} Build a data warehouse using Redshift. Build pipelines to collect data from many sources and transform data correctly. \\
+    \textbf{Project size:} 3 \\
+    \textbf{My position:} Data Engineer \\
+    \textbf{My responsibilities:}
+    \begin{itemize}
+        \item Build pipeline that collects external data using API and crawler, and by Kinesis Firehose
+        \item Self-build \& manage Airflow
+        \item Build pipeline transform, and test data using dbt
+        \item Management AWS DMS to sync data from another database (Postgres, MySQL) to Redshift
+    \end{itemize}
+    \textbf{Technologies used:} Airflow, Firehose, dbt, Redshift
+
+    \subsection{Warehouse Statistics (2021 - Nov 2021)}
+    \textbf{Customer:} Giaohangtietkiem JSC \\
+    \textbf{Description:} Create statistical data for shop users in fulfillment services \\
+    \textbf{Project size:} 1 \\
+    \textbf{My position:} Data Engineer \\
+    \textbf{My responsibilities:} Build transformation query in spark and put the results into MongoDB \\
+    \textbf{Technologies used:} Spark (Scala), Metorikku
+
+    \subsection{Sync2Elastic (Aug 2019 - Nov 2021)}
+    \textbf{Customer:} Giaohangtietkiem JSC \\
+    \textbf{Description:} Synchronization table data change from MySQL to ElasticSearch for searching purpose \\
+    \textbf{Project size:} 2 \\
+    \textbf{My position:} Data Engineer \\
+    \textbf{My responsibilities:} Build data pipeline from kafka to ElasticSearch \\
+    \textbf{Technologies used:} Spark (Scala), Kafka
+
+    \subsection{Data Ingestion (Aug 2019 - Nov 2021)}
+    \textbf{Customer:} Giaohangtietkiem JSC \\
+    \textbf{Description:} Ingestion data from various source databases (MongoDB, MySQL, PostgreSQL\ldots) to Data Warehouse (HDFS) in parquet format \\
+    \textbf{Project size:} 3 \\
+    \textbf{My position:} Data Engineer \\
+    \textbf{My responsibilities:} Build and maintain 3 components' data pipeline: Kafka connector, Kafka and Spark Streaming \\
+    \textbf{Technologies used:} Spark (Scala), Kafka, Debezium
+
+    \subsection{User Tracking (Feb 2020)}
+    \textbf{Customer:} Giaohangtietkiem JSC \\
+    \textbf{Description:} Tracking user events from web or mobile application \\
+    \textbf{Project size:} 2 \\
+    \textbf{My position:} Data Engineer \\
+    \textbf{My responsibilities:} Maintain and develop an embed script to collect data from user events in web application \\
+    \textbf{Technologies used:} Javascript
+
+    \subsection{Data as Services | das.ghtk.vn (Aug 2019 - Nov 2021)}
+    \textbf{Customer:} Giaohangtietkiem JSC \\
+    \textbf{Description:} This app (queries builder) allows users to write a native query, others can base on that custom query with additional user defined values, text, time,\ldots etc. After that people can receive query results on a scheduled time or immediately in xlsx or pdf format to email or chat channels. With main features like manage report, user, and role-based access control security. \\
+    \textbf{Impact:} Help hundreds of non-tech create reports without knowing SQL, reduce 80\% of requests to the Data Analyst team \\
+    \textbf{Project size:} 2 \\
+    \textbf{My position:} Data Engineer \\
+    \textbf{My responsibilities:}
+    \begin{itemize}
+        \item Gather users requirements and design database
+        \item Main developer for frontend and backend
+    \end{itemize}
+    \textbf{Technologies used:} Flask (Python), ReactJS (ES6), Spring Boot (Java), MySQL, ElasticSearch
+
+\end{document}

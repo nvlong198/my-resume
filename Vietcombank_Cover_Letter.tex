@@ -1,0 +1,118 @@
+% Compile this file with pdfLaTeX for best Vietnamese support using vietnam package
+
+\documentclass[11pt, letterpaper]{article}
+
+% Vietnamese support using vietnam package:
+\usepackage[utf8]{vietnam}
+\usepackage[
+    top=2.5cm,
+    bottom=2.5cm,
+    left=2.5cm,
+    right=2.5cm
+]{geometry}
+\usepackage[dvipsnames]{xcolor}
+\definecolor{primaryColor}{RGB}{0, 79, 144}
+\usepackage{enumitem}
+\usepackage{fontawesome5}
+\usepackage[
+    colorlinks=true,
+    urlcolor=primaryColor,
+    linkcolor=black
+]{hyperref}
+
+% Settings:
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{12pt}
+
+% Custom commands for header
+\newcommand{\contactinfo}[1]{%
+    \begin{center}
+        \color{primaryColor}
+        \large\textbf{Long Nguyen Van}\\
+        \normalsize\color{black}
+        #1
+    \end{center}
+}
+
+\begin{document}
+
+% Header with contact information
+\contactinfo{
+    {\footnotesize\faMapMarker*} Hà Nội, Việt Nam \quad
+    {\footnotesize\faEnvelope[regular]} vnlonguet@gmail.com \quad
+    {\footnotesize\faPhone*} +84 357 448 487
+}
+
+\vspace{1cm}
+
+% Date and recipient
+\begin{flushright}
+Hà Nội, ngày \today
+\end{flushright}
+
+\textbf{Kính gửi:}\\
+Ban Nhân sự\\
+Ngân hàng TMCP Ngoại thương Việt Nam (Vietcombank)
+
+\textbf{Tiêu đề: Đơn xin việc - Vị trí Chuyên viên Quản trị dữ liệu}
+
+Kính thưa Ban Nhân sự,
+
+Tôi là Nguyễn Văn Long, hiện đang làm việc tại vị trí Senior Data Engineer tại Công ty Cổ phần Chứng khoán Kỹ thương (Techcom Securities). Qua thông tin tuyển dụng, tôi biết được Vietcombank đang tìm kiếm nhân sự cho vị trí \textbf{Chuyên viên Quản trị dữ liệu}. Với kinh nghiệm và chuyên môn của mình, tôi tin rằng tôi là ứng viên phù hợp cho vị trí này.
+
+\textbf{Về bản thân và kinh nghiệm:}
+
+Tôi có hơn 5 năm kinh nghiệm trong lĩnh vực Data Engineering và quản trị dữ liệu, đặc biệt trong môi trường tài chính ngân hàng. Hiện tại, tôi đang phụ trách xây dựng và quản lý hệ thống dữ liệu tại Techcom Securities với các thành tựu chính:
+
+\begin{itemize}[leftmargin=1.5cm]
+    \item Xây dựng pipeline đồng bộ dữ liệu real-time sử dụng Kafka Debezium và Oracle để tích hợp dữ liệu từ nhiều nguồn khác nhau
+    \item Thiết kế và triển khai các giải pháp thu thập, tích hợp dữ liệu từ API, ElasticSearch, MongoDB, MySQL, PostgreSQL
+    \item Phát triển data pipeline sử dụng AWS Glue, Kafka Connector, AWS Lambda và AWS Redshift
+    \item Tăng cường bảo mật và tuân thủ quy định bằng cách triển khai Transparent Data Encryption (TDE)
+    \item Phối hợp với các phòng ban ngân hàng để chuyển giao và chia sẻ dữ liệu một cách an toàn và hiệu quả
+    \item Xây dựng, tiêu chuẩn hóa và quản lý từ điển dữ liệu và thuật ngữ kinh doanh
+    \item Phát triển và quản lý báo cáo chất lượng dữ liệu để theo dõi cải thiện chất lượng dữ liệu
+    \item Triển khai và duy trì hệ thống kiểm soát truy cập dựa trên vai trò (RBAC)
+\end{itemize}
+
+\textbf{Kỹ năng chuyên môn phù hợp với vị trí:}
+
+\begin{itemize}[leftmargin=1.5cm]
+    \item \textbf{Quản trị cơ sở dữ liệu:} Oracle, MySQL, PostgreSQL, MongoDB, Amazon Redshift
+    \item \textbf{Công nghệ Big Data:} Apache Spark, Kafka, Hadoop HDFS, Airflow, dbt
+    \item \textbf{Cloud Computing:} AWS (Glue, Lambda, Redshift, Kinesis, DMS)
+    \item \textbf{Data Security:} TDE, RBAC, data encryption và compliance
+    \item \textbf{Business Intelligence:} Superset, Power BI, Tableau, Holistics
+    \item \textbf{Programming:} Python, Java, Scala, JavaScript
+\end{itemize}
+
+\textbf{Tại sao tôi phù hợp với Vietcombank:}
+
+Với kinh nghiệm làm việc trong lĩnh vực tài chính và hiểu biết sâu về yêu cầu quản trị dữ liệu trong ngân hàng, tôi tin rằng có thể đóng góp hiệu quả cho Vietcombank trong việc:
+
+\begin{itemize}[leftmargin=1.5cm]
+    \item Xây dựng và duy trì hệ thống quản trị dữ liệu toàn diện, đảm bảo tính nhất quán và chất lượng dữ liệu
+    \item Triển khai các giải pháp bảo mật dữ liệu tiên tiến, tuân thủ các quy định của Ngân hàng Nhà nước
+    \item Phát triển data warehouse và data mart phục vụ cho phân tích kinh doanh và báo cáo
+    \item Tối ưu hóa hiệu suất hệ thống và quy trình xử lý dữ liệu
+    \item Hỗ trợ chuyển đổi số và ứng dụng công nghệ mới trong quản lý dữ liệu
+\end{itemize}
+
+Tôi rất mong được có cơ hội trao đổi trực tiếp với Ban Nhân sự để chia sẻ thêm về kinh nghiệm và kế hoạch đóng góp cho sự phát triển của Vietcombank. Tôi cam kết sẽ nỗ lực hết mình để hoàn thành tốt nhiệm vụ được giao và góp phần vào thành công chung của ngân hàng.
+
+Kính mong nhận được phản hồi từ Ban Nhân sự. Xin chân thành cảm ơn!
+
+\vspace{1cm}
+
+\begin{flushright}
+Trân trọng,\\
+\vspace{0.5cm}
+\textbf{Nguyễn Văn Long}
+\end{flushright}
+
+\vspace{1cm}
+
+\textit{Đính kèm: CV chi tiết}
+
+\end{document}
