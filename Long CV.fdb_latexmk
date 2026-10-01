@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1790831295.86517 "/Users/longphuong/WebstormProjects/latex/Long CV.tex" "Long CV.pdf" "Long CV" 1790831296.81203 0
-  "/Users/longphuong/WebstormProjects/latex/Long CV.tex" 1790831295.64135 13636 248ae34614d7011545e34517f9c46b1f ""
+["pdflatex"] 1790868508.49807 "/Users/longphuong/WebstormProjects/latex/Long CV.tex" "Long CV.pdf" "Long CV" 1790868509.51113 0
+  "/Users/longphuong/WebstormProjects/latex/Long CV.tex" 1790866050.74484 13869 553aab9911eb0bf556eb40546e11f312 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1622837620 3042 0e2b14b9be7d01075a4c4591d5d1781b ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc" 1622837620 2906 e48aa7c95dea478a2e011bcb4f7878c9 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/sourcesanspro/a_5ponh6.enc" 1587936753 3344 37c976a8b2fa4b8f132a488735054f7d ""
@@ -118,8 +118,8 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1755664735 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1755664625 3345739 d5a7c65ba562a26f7d70063570bcfcb4 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "Long CV.aux" 1790831296.67707 1548 0f8e49016480685a7292e8de347b5079 "pdflatex"
-  "Long CV.tex" 1790831295.64135 13636 248ae34614d7011545e34517f9c46b1f ""
+  "Long CV.aux" 1790868509.37356 1548 33cc527afb77671798e0cceccb980da1 "pdflatex"
+  "Long CV.tex" 1790866050.74484 13869 553aab9911eb0bf556eb40546e11f312 ""
   (generated)
   "Long CV.aux"
   "Long CV.log"

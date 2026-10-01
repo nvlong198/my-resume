@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.20)  1 OCT 2026 12:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.20)  1 OCT 2026 22:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -663,23 +663,23 @@ LaTeX Font Info:    Font shape `TS1/SourceSansPro-TLF/m/n' aliased to
 LaTeX Font Info:    Font shape `TS1/SourceSansPro-TLF/regular/n' will be
 (Font)              scaled to size 10.0pt on input line 220.
 
-Overfull \hbox (7.79591pt too wide) in paragraph at lines 226--227
+Overfull \hbox (7.79591pt too wide) in paragraph at lines 227--228
 []\T1/SourceSansPro-TLF/regular/n/10 Partner with an-a-lysts and data sci-en-tists to turn busi-ness re-quire-ments into datasets
  []
 
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/it' aliased to
-(Font)              `T1/SourceSansPro-TLF/regular/it' on input line 231.
+(Font)              `T1/SourceSansPro-TLF/regular/it' on input line 232.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/it' will be
-(Font)              scaled to size 10.0pt on input line 231.
+(Font)              scaled to size 10.0pt on input line 232.
 
-Overfull \hbox (25.36209pt too wide) in paragraph at lines 231--232
+Overfull \hbox (25.36209pt too wide) in paragraph at lines 232--233
 \T1/SourceSansPro-TLF/regular/it/10 Tech Stack: \T1/SourceSansPro-TLF/regular/n/10 Spark, Kafka, De-bez-ium, Air-flow, Or-a-cle, Post-greSQL, AWS Glue/Lambda/Redshift,
  []
 
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/it' aliased to
-(Font)              `T1/SourceSansPro-TLF/regular/it' on input line 249.
+(Font)              `T1/SourceSansPro-TLF/regular/it' on input line 250.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/it' will be
-(Font)              scaled to size 9.0pt on input line 249.
+(Font)              scaled to size 9.0pt on input line 250.
 [1
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/sourcesanspro/a_emkxm5.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/sourcesanspro/a_5ponh6.enc}]
@@ -695,13 +695,13 @@ L3 programming layer <2025-01-18>
 Here is how much of TeX's memory you used:
  16161 strings out of 473190
  277508 string characters out of 5715800
- 688841 words of memory out of 5000000
+ 689841 words of memory out of 5000000
  39189 multiletter control sequences out of 15000+600000
  638587 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,79p,598b,835s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,9n,79p,614b,835s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-Bold.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-It.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-Regular.pfb>
-Output written on "Long CV.pdf" (2 pages, 219546 bytes).
+Output written on "Long CV.pdf" (2 pages, 220213 bytes).
 PDF statistics:
  78 PDF objects out of 1000 (max. 8388607)
  61 compressed objects within 1 object stream

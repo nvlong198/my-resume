@@ -204,7 +204,7 @@
     %-------------------- Summary --------------------
     \section{Summary}
     \begin{onecolentry}
-        Senior Data Engineer with 7+ years of experience in SQL, database design and ETL/data warehousing, building batch and real-time (CDC) pipelines with Spark, Kafka/Debezium and Airflow across Oracle, MySQL and PostgreSQL, plus the internal applications and APIs that serve data to business teams. Currently at a securities company, delivering reliable reporting data for trading, finance and risk users, and using Generative AI both in the development workflow and in products (MCP server, text-to-SQL "Virtual DA").
+        Senior Data Engineer with 7+ years of experience building and operating ELT/ETL pipelines on AWS with Python, SQL, dbt, Airflow, Spark and Kafka/Debezium (batch and real-time CDC), including ingestion from third-party sources and APIs, plus the internal applications and APIs that serve data to business teams. Currently at a securities company, delivering reliable reporting data for trading, finance and risk users, and using Generative AI both in the development workflow and in products (MCP server, text-to-SQL "Virtual DA").
     \end{onecolentry}
 
     %-------------------- Experience --------------------
@@ -223,12 +223,13 @@
             \item Build internal applications and REST APIs that give other departments self-service, access-controlled data, replacing manual data requests
             \item Share data securely with banking partner departments, with Transparent Data Encryption (TDE) and role-based access control (RBAC) applied at the database level
             \item Established data governance: data dictionary, business glossary, governance tooling and regular data quality reports to track improvements
+            \item Monitor pipelines with Grafana dashboards and alerts that flag jobs that fail or do not run, so data issues are caught and fixed before they affect reports
             \item Partner with analysts and data scientists to turn business requirements into datasets and reports
             \item Use AI tools (Claude, Kiro, Gemini) daily across the development lifecycle for coding, SQL and pipeline development, debugging and documentation, and always review and validate AI output before use
             \item Built an MCP (Model Context Protocol) server exposing the data dictionary and business glossary, so other departments and AI applications can discover data definitions programmatically
             \item Built ``Virtual DA'', an internal text-to-SQL application on top of the MCP data dictionary: users ask questions in natural language, the system generates and executes the query on the database and returns the result, reducing ad-hoc requests to the data team
         \end{highlights}
-        \textit{Tech Stack:} Spark, Kafka, Debezium, Airflow, Oracle, PostgreSQL, AWS Glue/Lambda/Redshift, Python, Java, Jenkins, MCP, LLM
+        \textit{Tech Stack:} Spark, Kafka, Debezium, Airflow, Oracle, PostgreSQL, AWS Glue/Lambda/Redshift, Python, Java, Jenkins, Grafana, MCP, LLM
     \end{twocolentry}
 
     \vspace{0.2 cm}
@@ -290,7 +291,7 @@
             \item Cloud: AWS (Glue, Lambda, Redshift, Kinesis, DMS), Docker
             \item Serving: Spring Boot, Flask, REST APIs, ReactJS; BI: Superset, Redash, Power BI, Tableau, Holistics
             \item AI: LLM applications, MCP servers, text-to-SQL, prompt engineering, NLP
-            \item DevOps \& AI tools: Jenkins (CI/CD), Git, Claude, Kiro, Gemini; code review
+            \item DevOps \& AI tools: Jenkins (CI/CD), Grafana (monitoring \& alerting), Git, Claude, Kiro, Gemini; code review
         \end{highlightsforbulletentries}
     \end{onecolentry}
 
