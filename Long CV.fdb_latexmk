@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1790768521.88186 "/Users/longphuong/WebstormProjects/latex/Long CV.tex" "Long CV.pdf" "Long CV" 1790768522.81245 0
-  "/Users/longphuong/WebstormProjects/latex/Long CV.tex" 1756396550.49568 13802 efe71ec67bd3d11bdd8986032edfb827 ""
+["pdflatex"] 1790831295.86517 "/Users/longphuong/WebstormProjects/latex/Long CV.tex" "Long CV.pdf" "Long CV" 1790831296.81203 0
+  "/Users/longphuong/WebstormProjects/latex/Long CV.tex" 1790831295.64135 13636 248ae34614d7011545e34517f9c46b1f ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1622837620 3042 0e2b14b9be7d01075a4c4591d5d1781b ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc" 1622837620 2906 e48aa7c95dea478a2e011bcb4f7878c9 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/sourcesanspro/a_5ponh6.enc" 1587936753 3344 37c976a8b2fa4b8f132a488735054f7d ""
@@ -16,6 +16,7 @@
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/sourcesanspro/SourceSansPro-Regular-tlf-ts1.tfm" 1587936753 1448 4cf5933f0c7b241dc5473033d34eb07e ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1136768653 3584 adb004a0c8e7c46ee66cad73671f37b4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/fontawesome5/fa5free1regular.tfm" 1622837620 1204 3c27bf26105e0c1f2d31dba92f1c652d ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/fontawesome5/fa5free1solid.tfm" 1622837620 1316 1c2ee668ea88be9bd4f39690662cc344 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/fontawesome5/fa5free2solid.tfm" 1622837620 1340 b21002f38a477f345fa9dc96a5613e2b ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmr10.tfm" 1254269338 12056 7e13df7fe4cbce21b072ba7c4f4deb6e ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-Bold.pfb" 1587936753 356260 5bc504cea2bf4f3148de985d938ed606 ""
@@ -117,8 +118,8 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1755664735 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1755664625 3345739 d5a7c65ba562a26f7d70063570bcfcb4 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "Long CV.aux" 1790768522.68288 1612 c4b5c395f061a2174ff234eabf786f4e "pdflatex"
-  "Long CV.tex" 1756396550.49568 13802 efe71ec67bd3d11bdd8986032edfb827 ""
+  "Long CV.aux" 1790831296.67707 1548 0f8e49016480685a7292e8de347b5079 "pdflatex"
+  "Long CV.tex" 1790831295.64135 13636 248ae34614d7011545e34517f9c46b1f ""
   (generated)
   "Long CV.aux"
   "Long CV.log"

@@ -156,7 +156,7 @@
         \LenToUnit{\paperwidth-2 cm-0.2 cm+0.05cm},
         \LenToUnit{\paperheight-1.0 cm}
         ){\vtop{{\null}\makebox[0pt][c]{
-            % \small\color{gray}\textit{Last updated in September 2026}\hspace{\widthof{Last updated in September 2026}}
+            \small\color{gray}\textit{Last updated in August 2025}\hspace{\widthof{Last updated in August 2025}}
         }}}%
     }%
 }%
@@ -201,10 +201,42 @@
 
     \vspace{0.3 cm - 0.3 cm}
 
-    %-------------------- Summary --------------------
-    \section{Summary}
+    %-------------------- Skills --------------------
+    \section{Skills}
     \begin{onecolentry}
-        Senior Data Engineer with 7+ years of experience in SQL, database design and ETL/data warehousing, building batch and real-time (CDC) pipelines with Spark, Kafka/Debezium and Airflow across Oracle, MySQL and PostgreSQL, plus the internal applications and APIs that serve data to business teams. Currently at a securities company, delivering reliable reporting data for trading, finance and risk users, and using Generative AI both in the development workflow and in products (MCP server, text-to-SQL "Virtual DA").
+        \begin{highlightsforbulletentries}
+            \item Programming Languages: Python, Java, Scala, JavaScript
+            \item Data Engineering: Apache Spark, Kafka, Airflow, dbt, Hadoop HDFS
+            \item Cloud Platforms: AWS (Glue, Lambda, Redshift, Kinesis, DMS)
+            \item Databases: Oracle, MySQL, PostgreSQL, MongoDB, ElasticSearch, Amazon Redshift
+            \item Data Pipeline Tools: Kafka Connector, Debezium, Spark Streaming
+            \item BI Tools: Superset, Redash, Holistics, Power BI, Tableau
+            \item Web Development: Flask, Spring Boot, ReactJS
+            \item Machine Learning: NLP, LSTM, Statistical Language Modeling
+            \item Version Control: Git
+        \end{highlightsforbulletentries}
+    \end{onecolentry}
+
+    %-------------------- Education --------------------
+    \section{Education}
+    \begin{threecolentry}{\textbf{BSc}}{
+        2016 -- 2020
+    }
+        \textbf{VNU University of Engineering and Technology}, Information Systems (GPA: 3.22/4.0)
+        \begin{highlights}
+            \item Achievement certificate for very good student in academic year 2018-2019
+            \item Thesis: Automatic Diacritic Restoration of Vietnamese Language Text (99\% accuracy)
+            \item Research experience at university laboratory
+        \end{highlights}
+    \end{threecolentry}
+
+    %-------------------- Languages --------------------
+    \section{Languages}
+    \begin{onecolentry}
+        \begin{highlightsforbulletentries}
+            \item English: TOEIC 640 (2020)
+            \item Japanese: JLPT N4 (2018)
+        \end{highlightsforbulletentries}
     \end{onecolentry}
 
     %-------------------- Experience --------------------
@@ -217,18 +249,18 @@
     }
         \textbf{Techcom Securities JSC}, Senior Data Engineer
         \begin{highlights}
-            \item Built and operate real-time CDC pipelines with Kafka, Debezium and Kafka Connect, replicating Oracle, MySQL and PostgreSQL data into the reporting layer so departments get up-to-date data instead of next-day batch loads
-            \item Develop and tune Apache Spark batch and streaming jobs that aggregate data from databases, APIs, ElasticSearch and MongoDB into report-ready datasets
-            \item Designed cloud pipelines on AWS Glue, Lambda and Redshift, and collected data from unstructured sources (websites, documents, APIs)
-            \item Build internal applications and REST APIs that give other departments self-service, access-controlled data, replacing manual data requests
-            \item Share data securely with banking partner departments, with Transparent Data Encryption (TDE) and role-based access control (RBAC) applied at the database level
-            \item Established data governance: data dictionary, business glossary, governance tooling and regular data quality reports to track improvements
-            \item Partner with analysts and data scientists to turn business requirements into datasets and reports
-            \item Use AI tools (Claude, Kiro, Gemini) daily across the development lifecycle for coding, SQL and pipeline development, debugging and documentation, and always review and validate AI output before use
-            \item Built an MCP (Model Context Protocol) server exposing the data dictionary and business glossary, so other departments and AI applications can discover data definitions programmatically
-            \item Built ``Virtual DA'', an internal text-to-SQL application on top of the MCP data dictionary: users ask questions in natural language, the system generates and executes the query on the database and returns the result, reducing ad-hoc requests to the data team
+            \item Built real-time data synchronization pipelines using Kafka Debezium and Oracle OID to integrate and replicate data across heterogeneous databases for unified, up-to-date reporting
+            \item Collect and integrate data from various sources (API, ElasticSearch, MongoDB, MySQL, PostgreSQL)
+            \item Designed data pipelines using AWS Glue, Kafka Connector, AWS Lambda, and AWS Redshift
+            \item Developed and deployed solutions to collect and aggregate data from various unstructured sources (websites, documents, APIs)
+            \item Enhanced data security and compliance by implementing Transparent Data Encryption (TDE) at the database level
+            \item Collaborated with data analysts and scientists on business requirements
+            \item Collaborated closely with banking departments to transfer and share data securely and efficiently
+            \item Coordinated with relevant departments to build, standardize, and manage data dictionaries and business glossaries
+            \item Designed, implemented, and operated data management tools for improved governance
+            \item Developed and managed data quality reports to regularly measure and track data quality improvements
+            \item Implemented and maintained role-based access control (RBAC) for data access management
         \end{highlights}
-        \textit{Tech Stack:} Spark, Kafka, Debezium, Airflow, Oracle, PostgreSQL, AWS Glue/Lambda/Redshift, Python, Java, Jenkins, MCP, LLM
     \end{twocolentry}
 
     \vspace{0.2 cm}
@@ -240,12 +272,15 @@
     }
         \textbf{OpenCommerce Group}, Data Engineer
         \begin{highlights}
-            \item Built the WarehouseGen2 data warehouse on Amazon Redshift in a 3-person team, with multi-source ingestion via API, crawlers, webhooks, Kinesis Firehose and AWS DMS (PostgreSQL, MySQL to Redshift)
-            \item Self-hosted and managed Airflow for orchestration, and implemented data models and data quality tests with dbt
-            \item Migrated legacy databases to Redshift, designed data models and data marts, and tuned slow queries and database workloads
-            \item Supported reporting on Holistics, Power BI and Tableau
+            \item Designed data marts and optimized queries in a 3-person team
+            \item Built and maintained data pipelines using Airflow and dbt
+            \item Migrated legacy databases to Amazon Redshift
+            \item Implemented data models and validated data quality using dbt
+            \item Integrated data from various sources using webhook and crawling methods
+            \item Optimized database performance and managed workloads
+            \item Worked with BI tools: Holistics, Power BI, Tableau
         \end{highlights}
-        \textit{Tech Stack:} Python, Airflow, dbt, Redshift, PostgreSQL, AWS, Docker, Kinesis Firehose
+        \textit{Tech Stack:} Python, Airflow, dbt, Redshift, PostgreSQL, AWS, Docker, Kinesis-Firehose
     \end{twocolentry}
 
     \vspace{0.2 cm}
@@ -257,12 +292,16 @@
     }
         \textbf{Giaohangtietkiem JSC}, Data Engineer
         \begin{highlights}
-            \item Built Kafka connectors capturing database binlog events, and Spark Streaming ingestion from Kafka to HDFS
-            \item Created ETL pipelines aggregating data from HDFS into MySQL and MongoDB, and resolved Kafka and Spark streaming performance issues
-            \item Built \textbf{Data as Services} (2-person team): a query-builder app letting non-technical users create reports, with RBAC, and scheduled XLSX/PDF delivery by email and chat; reduced 80\% of requests to the Data Analyst team, serving hundreds of users
-            \item Deployed Superset with OAuth authentication, and built AI models for product classification and user trend analysis
+            \item Worked in an 8-person team on database design, coding, and web development
+            \item Built Kafka connectors to capture database binary log events
+            \item Developed ingestion pipelines using Spark Streaming from Kafka to HDFS
+            \item Created ETL pipelines aggregating data from Hadoop HDFS to MySQL/MongoDB
+            \item Installed and integrated Superset BI tools with OAuth authentication
+            \item Built AI systems for product classification and user trend analysis
+            \item Developed full-stack applications for reporting management systems
+            \item Handled Kafka and Spark streaming performance issues
         \end{highlights}
-        \textit{Tech Stack:} Java, Scala, Python, Hadoop, Spark, Kafka, Flask, Spring Boot, ReactJS, MySQL, ElasticSearch
+        \textit{Tech Stack:} Java, Scala, Python, JavaScript, Hadoop, Spark, Kafka, Flask, Spring Boot, ReactJS
     \end{twocolentry}
 
     \vspace{0.2 cm}
@@ -274,42 +313,48 @@
     }
         \textbf{NERD JSC}, NLP Researcher Intern
         \begin{highlights}
-            \item Contributed to \textbf{KAMI}, a Vietnamese-language virtual assistant launched in July 2019 for exam season (score lookup, admission search, school recommendations), \href{https://vnu.edu.vn/kami--tro-li-mua-thi-2019-post24357.html}{featured by VNU}
-            \item Improved intent detection for the assistant, built crawlers to collect training and admission data, and worked on Named Entity Recognition and diacritic restoration
+            \item Improved natural language understanding for intent detection
+            \item Created bot crawlers for machine learning model training data collection
+            \item Worked on NLP tasks: Named Entity Recognition and Diacritic Restoration in Vietnamese
         \end{highlights}
-        \textit{Tech Stack:} Python, NLP, Named Entity Recognition, intent detection, web crawling
     \end{twocolentry}
 
-    %-------------------- Skills --------------------
-    \section{Skills}
-    \begin{onecolentry}
-        \begin{highlightsforbulletentries}
-            \item Databases: Oracle, MySQL, PostgreSQL, Amazon Redshift, MongoDB, ElasticSearch; database design, data modeling, query tuning, data migration
-            \item Languages: SQL, Python, Java, Scala, JavaScript
-            \item ETL \& CDC: Kafka, Kafka Connect, Debezium, Apache Spark (batch, Structured Streaming), Airflow, dbt, AWS Glue, AWS DMS
-            \item Cloud: AWS (Glue, Lambda, Redshift, Kinesis, DMS), Docker
-            \item Serving: Spring Boot, Flask, REST APIs, ReactJS; BI: Superset, Redash, Power BI, Tableau, Holistics
-            \item AI: LLM applications, MCP servers, text-to-SQL, prompt engineering, NLP
-            \item DevOps \& AI tools: Jenkins (CI/CD), Git, Claude, Kiro, Gemini; code review
-        \end{highlightsforbulletentries}
-    \end{onecolentry}
+    %-------------------- Key Projects --------------------
+    \section{Key Projects}
 
-    %-------------------- Education --------------------
-    \section{Education}
     \begin{twocolentry}{
-        2016 -- 2020
+        Jan 2022 -- Present
+
+        Team: 3
     }
-        \textbf{VNU University of Engineering and Technology}, BSc Information Systems
+        \textbf{WarehouseGen2} - OpenCommerce Group
         \begin{highlights}
-            \item Thesis: Automatic Diacritic Restoration of Vietnamese Text (99\% accuracy)
+            \item Built data warehouse using Amazon Redshift with multi-source data collection
+            \item Developed pipelines for external data collection via API, crawlers, and Kinesis Firehose
+            \item Self-built and managed Airflow for orchestration
+            \item Implemented data transformation and testing using dbt
+            \item Managed AWS DMS for database synchronization (PostgreSQL, MySQL to Redshift)
         \end{highlights}
+        \textit{Technologies:} Airflow, Kinesis Firehose, dbt, Amazon Redshift
     \end{twocolentry}
 
-    %-------------------- Languages --------------------
-    \section{Languages}
-    \begin{onecolentry}
-        English: Professional working proficiency \quad|\quad Japanese: JLPT N4 (2018)
-    \end{onecolentry}
+    \vspace{0.2 cm}
+
+    \begin{twocolentry}{
+        Aug 2019 -- Nov 2021
+
+        Team: 2
+    }
+        \textbf{Data as Services (das.ghtk.vn)} - Giaohangtietkiem JSC
+        \begin{highlights}
+            \item Built query builder application for non-technical users to create reports
+            \item Implemented role-based access control and user management
+            \item Enabled scheduled report delivery in XLSX/PDF format via email/chat
+            \item Reduced 80\% of requests to Data Analyst team, serving hundreds of users
+            \item Full-stack development with database design and requirements gathering
+        \end{highlights}
+        \textit{Technologies:} Flask (Python), ReactJS, Spring Boot (Java), MySQL, ElasticSearch
+    \end{twocolentry}
 
     %-------------------- End Document --------------------
 \end{document}

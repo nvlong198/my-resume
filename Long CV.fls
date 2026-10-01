@@ -204,14 +204,13 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/fontawesome5/ufontawesomefree
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/fontawesome5/fa5free1regular.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/sourcesanspro/SourceSansPro-Regular-tlf-t1.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/sourcesanspro/SourceSansPro-Bold-tlf-t1.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/sourcesanspro/SourceSansPro-Bold-tlf-t1.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/sourcesanspro/TS1SourceSansPro-TLF.fd
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/sourcesanspro/TS1SourceSansPro-TLF.fd
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/sourcesanspro/TS1SourceSansPro-TLF.fd
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/sourcesanspro/SourceSansPro-Regular-tlf-ts1.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/sourcesanspro/SourceSansPro-Bold-tlf-t1.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/sourcesanspro/SourceSansPro-It-tlf-t1.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/sourcesanspro/SourceSansPro-It-tlf-t1.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/sourcesanspro/SourceSansPro-Regular-tlf-t1.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/sourcesanspro/SourceSansPro-Bold-tlf-t1.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/sourcesanspro/SourceSansPro-Bold-tlf-t1--base.tfm
 INPUT /usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map
@@ -222,15 +221,16 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/sourcesanspro/SourceSan
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/sourcesanspro/SourceSansPro-Bold-tlf-t1.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/sourcesanspro/SourceSansPro-Bold-tlf-t1--base.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/sourcesanspro/SourceSansPro-Bold-tlf-t1.vf
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/sourcesanspro/SourceSansPro-Bold-tlf-t1--base.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/sourcesanspro/SourceSansPro-Regular-tlf-ts1.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/sourcesanspro/SourceSansPro-Regular-tlf-ts1--base.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/sourcesanspro/a_5ponh6.enc
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/sourcesanspro/SourceSansPro-Bold-tlf-t1.vf
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/sourcesanspro/SourceSansPro-Bold-tlf-t1--base.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/sourcesanspro/SourceSansPro-It-tlf-t1.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/sourcesanspro/SourceSansPro-It-tlf-t1--base.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/sourcesanspro/SourceSansPro-It-tlf-t1.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/sourcesanspro/SourceSansPro-It-tlf-t1--base.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/fontawesome5/fa5free1solid.tfm
 INPUT Long CV.aux
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb
